@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  .title {
+    text-align: center;
+  }
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.table-container {
+ 
+    padding: 1px;
+    background-color: #f1f1f1;
+  }
+
+#tabla1, #tabla2, #tabla3, #tabla4 {
+  margin: 5px;
+}
+
+.spacer {
+  flex-grow: 1;
+  width: 5px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+
+td {
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+.form-table {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+.form-title {
+  text-align: left;
+  margin-left: 120px;
+}
+.title-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1px;
+  height: 40px;
+}
+.input-container {
+  text-align: center;  
+  padding: 5px;
+}
+  input[type="text"] {
+    width: 100px;
+  }
+  
+  input[type="submit"],
+  button {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  input[type="submit"],
+  button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #45a049;
+  }

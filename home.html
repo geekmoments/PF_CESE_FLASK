@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>Software de simulación del SIR</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h2 class="title">Software de simulación del SIR</h2>
+  
+  <form class="form-table">
+   
+    <div class="form-group">
+      <label for="input1">Modulos activos:</label>
+       
+      <div class="input-container">
+        <input type="text" id="input1" name="input1">
+      </div>
+    </div>
+    
+    <div class="form-group">
+      <input type="submit" value="Mostrar">
+    </div>
+  </form>
+
+  <div class="container">
+    <div class="table-container">
+      <table id="tabla1"></table>
+    </div>
+  
+    <div class="table-container">
+      <table id="tabla2"></table>
+    </div>
+  </div>
+
+  <div class="spacer"></div>
+
+  <div class="container">
+    <div class="table-container">
+      <table id="tabla3"></table>
+    </div>
+    
+    <div class="table-container">
+      <table id="tabla4"></table>
+    </div>
+  </div>
+
+  <form class="form-table">
+    <div class="title-container">
+      <h3 class="form-title">UP  --  DOWN</h3>
+      <h3 class="form-title">UP  --  DOWN</h3>
+    </div>
+    <div class="form-group">
+      <label for="input1">Actual:</label>
+       
+      <div class="input-container">
+        <input type="text" id="input1" name="input1">
+      </div>
+      <div class="input-container">
+        <input type="text" id="input1_extra" name="input1_extra">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="input2">Enviar:</label>
+      <div class="input-container">
+        <input type="text" id="input2" name="input2">
+      </div>
+      <div class="input-container">
+        <input type="text" id="input2_extra" name="input2_extra">
+      </div>
+
+      <div class="input-container">
+        <input type="text" id="input2" name="input2">
+      </div>
+      <div class="input-container">
+        <input type="text" id="input2_extra" name="input2_extra">
+      </div>
+
+    </div>
+    <div class="form-group">
+      <input type="submit" value="Enviar">
+    </div>
+  </form>
+
+  <button type="button" id="actualizar">Actualizar</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
